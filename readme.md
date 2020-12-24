@@ -1,4 +1,5 @@
 # ELK stack swarm deployment
 
-
-docker stack deploy -c docker-compose.yml elk
+cd single-node
+docker-compose.yml up
+docker-compose.yml down
